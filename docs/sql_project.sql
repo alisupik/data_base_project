@@ -1,0 +1,37 @@
+Таблица Sections:
+
+CREATE TABLE cd.sections(
+   name        CHARACTER VARYING(200) NOT NULL,
+   place       CHARACTER VARYING(200) NOT NULL,
+   time      CHARACTER VARYING(200) NOT NULL,
+);
+CREATE TABLE cd.events(
+   match        CHARACTER VARYING(200) NOT NULL,
+   time       CHARACTER VARYING(200) NOT NULL,
+   result      CHARACTER VARYING(200) NOT NULL,
+);
+CREATE TABLE cd.dance(
+   name        CHARACTER VARYING(200) NOT NULL,
+   place       CHARACTER VARYING(200) NOT NULL,
+   time      CHARACTER VARYING(200) NOT NULL,
+);
+CREATE TABLE cd.students(
+   name        CHARACTER VARYING(200) NOT NULL,
+   group       CHARACTER VARYING(200) NOT NULL,
+   valid_from      CHARACTER VARYING(200) NOT NULL,
+   valid_to
+);
+CREATE TABLE cd.student1(
+   name        CHARACTER VARYING(200) NOT NULL,
+   heaith_group       CHARACTER VARYING(200) NOT NULL,
+);
+CREATE TABLE cd.shedule(
+   sport_name        CHARACTER VARYING(200) NOT NULL,
+   time       CHARACTER VARYING(200) NOT NULL,
+   group      CHARACTER VARYING(200) NOT NULL,
+   type       CHARACTER VARYING(200) NOT NULL,
+);
+CREATE TABLE cd.teacher(
+   name        CHARACTER VARYING(200) NOT NULL,
+   sport       CHARACTER VARYING(200) NOT NULL,
+);
