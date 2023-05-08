@@ -37,18 +37,18 @@ INSERT INTO cd.events (match, time, result) VALUES
 ('Чемпионат по волейболу', '15 января, 17:00', '3 место'),
 ('Турнир по настольному теннису', '20 февраля, 10:00', '4 место'),
 ('Кубок по бадминтону', '1 марта, 14:00', '2 место');
-INSERT INTO events VALUES ('Матч века, РТ ФИВТ', '14 мая', NUN);
-INSERT INTO events VALUES ('МАТЧ ВЕКА БМ фупм', '11 мая', NUN);
-INSERT INTO events VALUES ('Рогейн', '1 мая', NUN);
-INSERT INTO events VALUES ('Планка века', '28 апреля');
-INSERT INTO events VALUES ('Баскетбольный матч', '14 мая');
-INSERT INTO events VALUES ('Матч маи мфти', '14 мая');
-INSERT INTO events VALUES ('День рождение резонанса', '14 апреля', NUN);
-INSERT INTO events VALUES ('Соревнование по чиру', '14 мая');
-INSERT INTO events VALUES ('Волейбольный матч', '7 мая');
-INSERT INTO events VALUES ('Бассейн мастеркласс по плаванию', '14 мая');
-INSERT INTO events VALUES ('Соревнования по плаванию', '14 мая');
-INSERT INTO events VALUES ('Бассейн мастеркласс по плаванию', '14 мая');
+INSERT INTO cd.events VALUES ('Матч века, РТ ФИВТ', '14 мая', NUN);
+INSERT INTO cd.events VALUES ('МАТЧ ВЕКА БМ фупм', '11 мая', NUN);
+INSERT INTO cd.events VALUES ('Рогейн', '1 мая', NUN);
+INSERT INTO cd.events VALUES ('Планка века', '28 апреля');
+INSERT INTO cd.events VALUES ('Баскетбольный матч', '14 мая');
+INSERT INTO cd.events VALUES ('Матч маи мфти', '14 мая');
+INSERT INTO cd.events VALUES ('День рождение резонанса', '14 апреля', NUN);
+INSERT INTO cd.events VALUES ('Соревнование по чиру', '14 мая');
+INSERT INTO cd.events VALUES ('Волейбольный матч', '7 мая');
+INSERT INTO cd.events VALUES ('Бассейн мастеркласс по плаванию', '14 мая');
+INSERT INTO cd.events VALUES ('Соревнования по плаванию', '14 мая');
+INSERT INTO cd.events VALUES ('Бассейн мастеркласс по плаванию', '14 мая');
 
 
 INSERT INTO cd.dance (name, place, time) VALUES
