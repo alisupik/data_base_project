@@ -1,4 +1,4 @@
-INSERT INTO section VALUES ('Волейбол', 'Коробка', 'каждый день, с 9.00');
+INSERT INTO cd.sections VALUES ('Волейбол', 'Коробка', 'каждый день, с 9.00');
 INSERT INTO cd.sections VALUES ('ОФП девочки', 'Коробка', 'каждый день, с 9.00');
 INSERT INTO cd.sections VALUES ('Качалка', 'Коробка', 'каждый день, с 9.00');
 INSERT INTO cd.sections VALUES ('Йога', 'Коробка', 'каждый день, с 9.00');
