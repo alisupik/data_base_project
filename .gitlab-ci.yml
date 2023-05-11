@@ -1,6 +1,6 @@
 project:
   trigger:
-    include: ${CI_PROJECT_DIR}/project-ci_1.yml
+    include: ${CI_PROJECT_DIR}/project-ci__1_.yml
   rules:
     - when: always
 
