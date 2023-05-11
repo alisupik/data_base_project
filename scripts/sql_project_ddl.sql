@@ -23,7 +23,7 @@ CREATE TABLE cd.students(
 );
 CREATE TABLE cd.student1(
    name        CHARACTER VARYING(200) NOT NULL,
-   heaith_group       CHARACTER VARYING(200) NOT NULL,
+   health_group       CHARACTER VARYING(200) NOT NULL,
 );
 CREATE TABLE cd.shedule(
    sport_name        CHARACTER VARYING(200) NOT NULL,
